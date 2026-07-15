@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Stylesheet/intro.module.css"
+
 import { ReactTyped } from 'react-typed'
 function Intro() {
 

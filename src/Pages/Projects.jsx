@@ -1,11 +1,22 @@
 import React from 'react'
 import ProjectCard from '../Components/ProjectCard'
-
+import { projectsData } from '../data'
 function Projects() {
+  
   return (
     <section id='projects'>
-     <h2>Projects</h2>
-     <ProjectCard ProjectDescription={"this is my project "} />
+     <h2 >Projects</h2>
+
+    <div id='projectCard'>
+     {projectsData.map((project)=>{
+      return(
+        <ProjectCard key={project.projectId} projectName={project.projectName} projectImage={project.projectImage} projectLink={project.projectLink}/>
+      )
+     })}
+    
+    </div>
+
+     
     </section>
   )
 }

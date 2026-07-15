@@ -1,11 +1,16 @@
 import React from 'react'
 
-function ProjectCard({ProjectDescription,ProjectImage}) {
+function ProjectCard({projectLink,projectImage,projectName}) {
   return (
-    <div className='projectContainer'>
-        <p>{ProjectDescription}</p>
-      <div><img src={ProjectImage} alt="project image" /></div>
-    </div>
+    <div className='projectBox'>
+<a href={projectLink} className='projectLink'>
+
+  <div className='projectImgCard'>
+    <img src={projectImage} alt="" />
+  </div>
+  <p>{projectName}</p>
+</a>
+</div>
   )
 }
 
