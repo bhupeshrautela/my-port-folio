@@ -353,4 +353,16 @@ nav {
     #projectCard {
         grid-template-columns: 1fr
     }
+   
+       
+       
+       
+
+     #myinfo  p{
+            width: 100%;
+            
+            text-align: left;
+        }
+
+    
 }

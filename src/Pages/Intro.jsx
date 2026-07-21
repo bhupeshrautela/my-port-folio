@@ -22,7 +22,7 @@ function Intro() {
 I create modern, responsive, and user-friendly
 web applications with a focus on performance,
 clean code, and great user experience.</p>
-<a href="" id='resume' >resume</a>
+<a href="/resume.pdf" id='resume' downloadf>resume</a>
 
       </div>
 
