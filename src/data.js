@@ -73,7 +73,7 @@ export let profileData=[
   },
   {
     profileId:3,
-    profileLink:"",
+    profileLink:"https://www.linkedin.com/in/bhupeshrautela/",
     profileLogo:"https://cdn-icons-png.flaticon.com/128/3536/3536505.png"
   }
 ]
