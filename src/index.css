@@ -1,4 +1,4 @@
-/* Responsive Portfolio CSS */
+
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap');
 
 :root {
@@ -37,7 +37,8 @@ img {
 a {
     text-decoration: none;
     color: var(--secondary);
-    transition: .3s
+    transition: .3s;
+    text-transform: capitalize;
 }
 
 a:hover {
@@ -63,11 +64,11 @@ nav {
     padding: 16px;
     background: rgba(15, 23, 42, .65);
     backdrop-filter: blur(10px)
+    
 }
 
 #introduction {
     height: 100vh;
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,12 +95,14 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
   
    
 }
 
 #hero h1 {
-    font-size: clamp(2.5rem, 6vw, 4.5rem)
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    text-transform: capitalize;
 }
 
 #hero h2 {
@@ -139,8 +142,8 @@ nav {
 }
 
 #myprofile img {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     border-radius: 20px;
     object-fit: cover;
     box-shadow: 0 20px 40px rgba(0, 0, 0, .4)
@@ -169,11 +172,13 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    transition: .3s
+    transition: .3s;
+    
 }
 
 .cardContainer:hover {
-    transform: translateY(-8px)
+    transform: translateY(-8px);
+    box-shadow: 0px 2px 5px var(--primary);
 }
 
 .cardImage img {
@@ -183,15 +188,18 @@ nav {
 }
 
 .cardContainer h3 {
-    font-size: 14px
+    font-size: 14px;
+    text-transform: capitalize;
+    
 }
 
 #projectCard {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 28px;
+    gap: 18px;
     align-items: center;
     justify-items: center;
+
     
    
 }
@@ -199,12 +207,17 @@ nav {
 .projectBox{
  height: 200px;
  width: 300px;
-    
     display: flex;
     margin: 5px;
     justify-content: center;
     align-items: center;
     transition: .3s;
+}
+.profileBox::before{
+
+    position: absolute;
+    left: 0;
+    z-index: 100;
 }
 
 
@@ -253,6 +266,7 @@ nav {
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+    
 }
 
 .profileBox{
@@ -290,11 +304,14 @@ nav {
     justify-items: center;
     align-items: center;
     gap: 50px;
+    
 
 }
 #myinfo p{
-    width: 500px;
-    
+    width: 700px;
+    padding:20px;
+    text-shadow: 0px 1px blue;
+       
 }
 
 
