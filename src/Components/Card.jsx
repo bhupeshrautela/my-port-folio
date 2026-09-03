@@ -13,3 +13,4 @@ function Card({cardImage,titleName}) {
 }
 
 export default Card
+

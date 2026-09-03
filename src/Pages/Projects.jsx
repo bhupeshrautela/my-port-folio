@@ -10,7 +10,7 @@ function Projects() {
     <div id='projectCard'>
      {projectsData.map((project)=>{
       return(
-        <ProjectCard key={project.projectId} projectName={project.projectName} projectImage={project.projectImage} projectLink={project.projectLink}/>
+        <ProjectCard key={project.projectId} projectName={project.projectName} projectImage={project.projectImage} projectLink={project.projectLink} projectDescription={project.projectDescription}/>
       )
      })}
     

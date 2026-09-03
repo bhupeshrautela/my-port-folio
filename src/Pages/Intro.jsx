@@ -36,3 +36,4 @@ clean code, and great user experience.</p>
 }
 
 export default Intro
+
