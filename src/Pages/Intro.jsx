@@ -27,7 +27,7 @@ clean code, and great user experience.</p>
       </div>
 
       <div id='myprofile'>
-        <img src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym95fGVufDB8fDB8fHww" alt="" />
+        <img src="" alt="my profile picture" />
         </div>
         
       </section>
