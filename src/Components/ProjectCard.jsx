@@ -6,7 +6,7 @@ function ProjectCard({projectLink,projectImage,projectName,projectDescription}) 
 <a href={projectLink} className='projectLink'>
 
   <div className='projectImgCard'>
-    <img src={projectImage} alt="" />
+    <img src={projectImage} alt={projectName} />
   </div>
   <p>{projectName}</p>
   <p>{projectDescription}</p>

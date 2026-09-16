@@ -62,6 +62,15 @@ export let projectsData=[
     projectImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMd8OlqnVibK3PxI5Rxaawi1AYDyH57iPqzAS5J8jGQvvjIpc6aCseFg8l&s=10"
   ,projectDescription:"A responsive movie browsing platform with search, categories, movie details, and a modern UI. Built using React, Tailwind CSS, and REST APIs."
   }
+  ,{
+    projectId:4,
+    projectLink:"https://gharvyapar.vercel.app/",
+    projectName:"ghar vyapar",
+    projectImage:"/gharvyapar.png",
+    projectDescription:"A responsive property listing web app built with React.js, featuring a clean UI and smooth user experience."
+    
+
+  }
 ]
 
 
